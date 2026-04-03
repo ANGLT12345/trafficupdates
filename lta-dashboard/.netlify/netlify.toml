@@ -1,0 +1,29 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/anglt/trafficupdates/lta-dashboard/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "/Users/anglt/trafficupdates/lta-dashboard"
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "20"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
