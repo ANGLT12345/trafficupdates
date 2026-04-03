@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+buildCommand = "cd lta-fetcher && npm install"
+
+[deploy]
+startCommand = "cd lta-fetcher && node index.js"
+restartPolicyType = "always"
